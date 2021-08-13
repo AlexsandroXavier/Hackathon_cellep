@@ -1,0 +1,82 @@
+body{
+  background: black;
+}
+.active{
+  background-color:#fa9006;
+  border-radius: 5px;
+}
+
+.nav-link{
+  color: black !important;
+}
+
+.nav-link:hover:not(.active), .dropdown-item:hover{
+  background-color: #fa9006;
+  color: white !important;
+  border-radius: 5px;
+}
+
+.bg-imagem{
+  height: 48vw;
+  background-image: url(https://cdn.pixabay.com/photo/2015/04/20/13/25/burgers-731298_960_720.jpg);
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+.bg-imagem:hover {
+  opacity: 0.7;
+}
+
+.bg-imagem h2{
+  color: #fa9006;
+  font-size: 6vw;
+  text-shadow: 4px 4px 8px black;
+  font-family: copperplate;
+}
+
+.bg-imagem p{
+  font-size: 3vw;
+  text-shadow: 4px 4px 8px black;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.redes img{
+  width: 24px;
+}
+
+.redes {
+  text-align: center;
+  background-color:#F93154; 
+}
+
+.redes li{
+  display: inline;
+  margin-right: 20px;
+}
+
+.meni{
+  background-color: #F93154;
+  
+}
+
+.active{
+  background-color: #fa9006 !important;
+}
+
+.card-body{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.card-title{
+//  font-size: 4vw;
+  color: white;
+}
+
+.card-text:{
+  font-size: 2vw;
+  color: #fa9006;
+}
+
+.reserva{
+  background-color: #fa9006;
+}
