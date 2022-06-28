@@ -18,7 +18,7 @@ body{
 
 .bg-imagem{
   height: 48vw;
-  background-image: url(https://cdn.pixabay.com/photo/2015/04/20/13/25/burgers-731298_960_720.jpg);
+  background-image: url('./img/burgers.jpg');
   background-repeat: no-repeat;
   background-size: cover; 
 }
@@ -68,11 +68,11 @@ body{
 }
 
 .card-title{
-//  font-size: 4vw;
+  font-size: 4vw;
   color: white;
 }
 
-.card-text:{
+.card-text{
   font-size: 2vw;
   color: #fa9006;
 }
